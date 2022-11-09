@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+@media only screen and (min-width: 1401px) {
+    .miniatura-musica {
+        width: 5%;
+    }
+
+    .btn-style {
+        margin-top: 1%;
+    }
+
+    .recomendacao {
+        display: inline-block;
+    }
+
+    .nav-logo img {
+        width: 7%;
+    }
+
+    .cadastrar-musica {
+        width: 50%;
+        padding: 20px 20px 20px 20px;
+        margin-top: 1%;
+        margin-left: 1%;
+    }
+
+    .row {
+        margin-top: -3%;
+        margin-left: 16%;
+    }
+}
+
+/* Dispositivos intermediários - ex. notebooks */
+@media only screen and (min-width: 769px) and (max-width: 1400px) {
+    .miniatura-musica {
+        width: 5%;
+    }
+
+    .bx-lbl-recomendacoes {
+        margin-top: 2%;
+    }
+
+    .recomendacao {
+        display: inline-block;
+    }
+
+    .row {
+        margin-top: -3%;
+        margin-left: 16%;
+    }
+
+    .btn-style {
+        margin-top: 1%;
+    }
+
+    .nav-logo img {
+        width: 7%;
+    }
+
+    .botoes {
+        margin-top: -3%;
+    }
+    
+    .cadastrar-musica {
+        width: 50%;
+        padding: 20px 20px 20px 20px;
+        margin-top: 1%;
+        margin-left: 1%;
+    }
+}
+
+/* Dispositivos pequenos - ex. celulares */
+@media screen and (max-width: 600px) {
+    .nav-logo img {
+        display: none;
+    }
+    .recomendacao {
+        display: inline;
+    }
+
+    .miniatura-musica {
+        width: 10%;
+    }
+
+    .botoes {
+        width: 330%;
+    }
+
+    .btn-style {
+        margin-top: 1%;
+    }
+
+    .no-responsive {
+        display: none;
+    }
+
+    .cadastrar-musica {
+        width: 98%;
+        padding: 20px 20px 20px 20px;
+        margin-top: 1%;
+        margin-left: 1%;
+    }
+}
+
+.miniatura-musica img {
+    width: 100%;
+    height: 100%;
+}
+
+.miniatura-musica {
+    background-color: #4e0805;
+}
+
+.bg-laravel-theme {
+    background-color: #f2625d;
+}
+
+.star {
+    color: rgb(95, 95, 0);
+    border: rgb(95, 95, 0);
+}
+
+.cadastrar-musica {
+    border: 1px solid #f2625d;
+    border-radius: 10px;
+}
+
+.color-blue {
+    color: blue;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.color-red {
+    color: red;
+}
+
+.miniatura-musica {
+    border: 1px solid #f2625d;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.btn-style {
+    width: 30%;
+}
+
+.miniatura {
+    width: 30%;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    background-color: #f2625d;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.recomendacao {
+    width: 20%;
+    height: 20%;
+    margin-top: 5%;
+}
+
+.bx-lbl-recomendacoes {
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    color: #5a0b08
+}
